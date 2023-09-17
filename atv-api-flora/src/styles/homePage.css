@@ -1,0 +1,20 @@
+:root {
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+}
+/*para não ter que ficar repetindo isso toda vez*/
+  
+.buttonAPI {
+    display: flex;
+    justify-content: center;
+}
+  
+.buttonAPI button {
+    padding: 2px;
+    margin: 8px;
+    font-family: var(--font-family);/*varíavel declarada lá em cima*/
+}
+  
+body {
+    font-family: var(--font-family);
+}
+  
